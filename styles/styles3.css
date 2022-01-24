@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: #111111;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color:#f44336;
+}
+.pain p{
+    color:#9B0000;
+}
+header{
+    width: 960px;
+    height: 400px;
+    margin-left: 25%;
+}
+footer{
+    width: 960px;
+    height: 250px;
+    border: 1px;
+    border-style:solid;
+    margin-left: 25%;
+    
+}
+.navbar{
+  width: 960px;
+  height: 50px;
+  margin-left: 25%;
+  margin-bottom: 0;
+  overflow: auto;
+  background-color: #FF5403;
+}
+.navbar a{
+  float: left;
+  padding: 15px 24px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #9B0000;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+.navbar a:hover {
+    background-color: #FFF323;
+  }
+.second{
+  padding: 10% 25%;
+}
+button{
+    background-color: #f44336;
+}
+label{
+    color: black;
+}
+.pain{
+    margin-left: 25%;
+    width: 960px;
+    height: 500px;
+    text-align: center;
+}
+.pain::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.text{
+    text-align: center;
+    width: 50%;
+    margin:50px 0 0 90px;
+    color: #FF5403;
+}
+hr {
+    border-style: solid none none;
+    border-width: 2px;
+    border-color: #FF5403;
+    width: 960px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+.copyright{
+    width: 960px;
+    height: 50px;
+    margin-left: 25%;
+    text-align: center;
+}
+.copyright p{
+    color: #f44336;
+}
